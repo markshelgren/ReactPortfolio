@@ -27,14 +27,14 @@ function Home() {
 					<Col size="md-12 text">
 						<p>
 							Mark has over 10+ years of successful, "hands-on" leadership,
-							development and implementation in the SAP, S4/HANA environnment
+							development and implementation experience in the SAP, S4/HANA environnment
 							and has expanded his skills to include "Full-Stack Development".
 						</p>
 						<p>
-							Mark has developed his own fullstack applications including, HTML,
-							CSS, Javascript, React, Jquery, Node, NPM, SQL, NOSQL, MongoDB,
-							Heroku, and a plethora of other "full-stack" tools, utilities,
-							platforms an development environments.
+							Mark recently earned a certificate from the Full Stack development Bootcamp at University of California Irvine.  Mark demonstrated ability to develp robust, user friendly, intelligent applications using the full stack.  Including but not limited to React, Node, MongoDB and jQuery.
+						</p>
+						<p>
+							Mark will continue to improve and expand his full-stack skills and is looking to apply them by being part of a dynamic software development team. Mark is comfortable with any role, including developer, tester, designer, leader or project manager. 
 						</p>
 					</Col>
 				</Row>
