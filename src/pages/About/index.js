@@ -73,7 +73,7 @@ function About() {
 							<strong>Resume:</strong>{" "}
 							<a
 								id="mediumblue"
-								href="./assets/resume/Mark C. Shelgren_Resume.pdf"
+								href="./assets/resume/MarkShelgren_Resume.pdf"
 								target="_blank"
 								rel="noreferrer"
 								alt="markresume"
@@ -89,31 +89,12 @@ function About() {
 								rel="noreferrer"
 								alt="Github"
 							>
-								github.com/whintzen
+								Mark Shelgren's Github
 							</a>
 						</ul>
 					</Col>
 				</Row>
 			</Container>
-			<Row className="text-center">
-				<Col size="md-12">
-					<hr className="socialhr" />
-					<h2 className="connect">Connect</h2>
-				</Col>
-
-				<Col size="md-4"></Col>
-				<Col size="md-4 social">
-					<a
-						href="www.linkedin.com/in/markshelgren/"
-						target="_blank"
-						rel="noreferrer"
-						className="fa fa-linkedin"
-					>
-						{" "}
-					</a>
-				</Col>
-				<Col size="md-4"></Col>
-			</Row>
 			<Footer />
 		</div>
 	);

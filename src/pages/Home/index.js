@@ -13,12 +13,12 @@ function Home() {
 			<Container>
 				<Row>
 					<Col size="lg-12">
-						<h1 className="display-5">My Portfolio</h1>
+						<h1 className="display-5">Meet Mark Shelgren</h1>
 						<hr />
 					</Col>
 					<Col size="md-12">
 						<img
-							src={"./assets/images/IMG_4628.jpg"}
+							src={"./assets/images/mark_tie_only.jpg"}
 							alt="MyPicture"
 							className="img-fluid"
 						/>
@@ -26,35 +26,19 @@ function Home() {
 					<br />
 					<Col size="md-12 text">
 						<p>
-							Collaborative Software DeliveryManager/Project Lead with expertise
-							building mature agile teams that deliver quality on-deadline
-							products that drive corporative objectives. Facilitates continuous
-							improvement across all levels of the organization. Servant leader
-							adept at creating self-directed teams and positive team cultures.
-							Certified Scrum Master(CSM)and SAFe Advance Scrum Master(SASM)
+							Mark has over 10+ years of successful, "hands-on" leadership,
+							development and implementation in the SAP, S4/HANA environnment
+							and has expanded his skills to include "Full-Stack Development".
+						</p>
+						<p>
+							Mark has developed his own fullstack applications including, HTML,
+							CSS, Javascript, React, Jquery, Node, NPM, SQL, NOSQL, MongoDB,
+							Heroku, and a plethora of other "full-stack" tools, utilities,
+							platforms an development environments.
 						</p>
 					</Col>
 				</Row>
 			</Container>
-			<Row className="text-center">
-				<Col size="md-12">
-					<hr className="socialhr" />
-					<h2 className="connect">Connect</h2>
-				</Col>
-
-				<Col size="md-4"></Col>
-				<Col size="md-4 social">
-					<a
-						href="www.linkedin.com/in/markshelgren/"
-						target="_blank"
-						rel="noreferrer"
-						className="fa fa-linkedin"
-					>
-						{" "}
-					</a>
-				</Col>
-				<Col size="md-4"></Col>
-			</Row>
 			<Footer />
 		</>
 	);
