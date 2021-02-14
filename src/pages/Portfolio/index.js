@@ -67,22 +67,74 @@ function Portfolio() {
 					</Col>
 				</Row>
 				<br />
-				{/* Note Taker Section*/}
+{/* Fitness Tracker Section  */}
+<Row>
+					<Col size="lg-12">
+						<p id="mediumblue">
+							<strong>Fitness Tracker:</strong>
+							<strong id="antiquewhite">
+								{" "}
+								The Fitness tracker enables the user to create and define their
+								own workouts and exercises and then track those workouts and
+								exercises. It includes a "Dashboard" where the workout history
+								is displayed in graphical format.
+							</strong>
+						</p>
+						<div class="project">
+							<ul>
+								<strong id="mediumblue">Deployed:</strong>{" "}
+								<a
+									href="https://stormy-tundra-74005.herokuapp.com/"
+									id="antiquewhite"
+									target="_blank"
+									rel="noreferrer"
+									alt="Deploy"
+								>
+									{" "}
+									GitHub Deployed Version
+								</a>
+								<br />
+								<strong id="mediumblue">Repository:</strong>{" "}
+								<a
+									href="https://github.com/markshelgren/WorkoutTracker"
+									id="antiquewhite"
+									target="_blank"
+									rel="noreferrer"
+									alt="Repository"
+								>
+									GitHub Repository
+								</a>
+							</ul>
+						</div>
+					</Col>
+
+					<br />
+					<Col size="lg-12">
+						<img
+							src="./assets/images/fitnesstracker.png"
+							alt="BurgerApp"
+							className="burger"
+						/>
+					</Col>
+				</Row>
+				<br />	
+
+				{/* Weather App Section*/}
 				<Row>
 					<Col size="lg-12">
 						<p id="mediumblue">
 							{" "}
-							<strong>Note Taker Info:</strong>
+							<strong>Weather Forecast App Info:</strong>
 							<strong id="antiquewhite">
 								{" "}
-								Record, save and retrieve personal notes and to do items.
+								Read, update and save 5 day weather forecasts for multiple cities.
 							</strong>
 						</p>
 						<div className="code">
 							<ul>
 								<strong id="mediumblue">Deployed:</strong>{" "}
 								<a
-									href="https://mysterious-retreat-65224.herokuapp.com/"
+									href="https://markshelgren.github.io/homework6/"
 									id="antiquewhite"
 									target="_blank"
 									rel="noreferrer"
@@ -93,7 +145,7 @@ function Portfolio() {
 								<br />
 								<strong id="mediumblue">Repository:</strong>{" "}
 								<a
-									href="https://github.com/markshelgren/noteTaker"
+									href="https://github.com/markshelgren/homework6"
 									id="antiquewhite"
 									target="_blank"
 									rel="noreferrer"
@@ -107,7 +159,7 @@ function Portfolio() {
 					<br />
 					<Col size="lg-12">
 						<img
-							src="./assets/images/notetaker.png"
+							src="./assets/images/weatherforecast.png"
 							alt="CodeQuiz"
 							className="codequiz"
 						/>
@@ -165,56 +217,7 @@ function Portfolio() {
 					</Col>
 				</Row>
 				<br />
-				{/* Fitness Tracker Section  */}
-				<Row>
-					<Col size="lg-12">
-						<p id="mediumblue">
-							<strong>Fitness Tracker:</strong>
-							<strong id="antiquewhite">
-								{" "}
-								The Fitness tracker enables the user to create and define their
-								own workouts and exercises and then track those workouts and
-								exercises. It includes a "Dashboard" where the workout history
-								is displayed in graphical format.
-							</strong>
-						</p>
-						<div class="project">
-							<ul>
-								<strong id="mediumblue">Deployed:</strong>{" "}
-								<a
-									href="https://stormy-tundra-74005.herokuapp.com/"
-									id="antiquewhite"
-									target="_blank"
-									rel="noreferrer"
-									alt="Deploy"
-								>
-									{" "}
-									GitHub Deployed Version
-								</a>
-								<br />
-								<strong id="mediumblue">Repository:</strong>{" "}
-								<a
-									href="https://github.com/markshelgren/WorkoutTracker"
-									id="antiquewhite"
-									target="_blank"
-									rel="noreferrer"
-									alt="Repository"
-								>
-									GitHub Repository
-								</a>
-							</ul>
-						</div>
-					</Col>
-
-					<br />
-					<Col size="lg-12">
-						<img
-							src="./assets/images/fitnesstracker.png"
-							alt="BurgerApp"
-							className="burger"
-						/>
-					</Col>
-				</Row>
+				
 			</Container>
 
 			<Footer />
