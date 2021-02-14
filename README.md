@@ -1,4 +1,4 @@
-# :sweat_drops: Unit 20 React Homework: React Portfolio
+# Unit 20 React Homework: React Portfolio
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -49,3 +49,7 @@ Users can use the repo, but please do not delete any code.
 ## Questions
 
 If you have any questions about the repo, open an issue or contact me directly at wpah@comcast.net. You can find more of my work at [Mark Shelgren](https://github.com/markshelgren/ReactPortfolio).
+
+## Screenshots
+
+![Example screenshot](./public/assets/images/homework20readme.png)
